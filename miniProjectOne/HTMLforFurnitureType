@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>Furniture Type Collections<title>
+	</head>
+	<body>
+		<form action="http://localhost:8080/furnituretypes"method="POST">
+			<label for="type of furniture">Type of Furniture:</label>
+			<input type="text" name="type of furniture" id="type of furniture">
+			<br>
+			<label for="color">Color:</label>
+			<select name="color" id="color">
+				<option>white</option>
+				<option>black</option>
+				<option>gold</option>
+				<option>red</option>
+				<option>green</option>
+				<option>blue</option>
+			</select>
+			<br>
+		<button>Submit</button>
+		</form>
+	</body>
+</html>
+		
